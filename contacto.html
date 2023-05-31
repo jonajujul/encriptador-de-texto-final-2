@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UFT-8">
+        <title> Contacto-Blas & Co</title>
+        <link rel ="stylesheet" href="reset.css">
+        <link rel ="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="logo/logo4.jpg.jpg" class = logoLogo4 alt="Logo de Blas & Co"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+            <form>
+                <label for="nombreyapellido">nombre y Apellido</label>
+                <input type="text" id="nombreyapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono</label>
+                <input type ="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+                <fieldset>
+
+                    <legend>¿como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">email</label> 
+                    
+
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono id="telefono>telefono</label> 
+                    
+
+
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>whatsapp</label> 
+                    
+
+                </fieldset>
+ 
+                <fieldset>
+                    <legend>¿En cual horario le gustaria ser atendido?</legend>
+                <select>
+                   <option>Mañana</option>
+                   <option>Tarde</option> 
+                   <option>Noche</option>  
+                </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades por parte de Blas & Co?</label>
+
+                <input type="submit" value="enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+                
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08 ~ 20h</td
+                    </tr>
+
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08 ~ 20h</td
+                    </tr>
+
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08 ~ 20h</td
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </main>
+        
+        <footer>
+            <img src="logo/logo1.jpg.jpg" class="logo1" alt="logo de Blas & Co">
+            <p class="copyright">&copy Copyright Blas & Co</p>
+            <p></p>
+        </footer>
+
+    </body>
+</html>
